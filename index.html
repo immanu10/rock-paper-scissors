@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Rock Paper Scissors</h1>
+    <p class="game-condition">First to win 5 Rounds will be the winner.</p>
+   <div class="display">
+    <div class="player">
+        <div class="player-you">
+            <h1>You</h1>
+            <h1 class="player-score">0</h1>
+        </div>
+        <div  class="player-display">
+            <img src="rock.png" alt="rockimg"class="player-img">  
+        </div>
+        <div class="player-btn">
+            <button data-value="rock"><img src="rock.png" alt=""></button>
+            <button data-value="paper"><img src="paper.png" alt=""></button>
+            <button data-value="scissor"><img src="scissor.png" alt=""></button>
+        </div>
+    </div>
+    <div class="computer" > 
+       <div class="player-computer">
+        <h1>Computer</h1>
+        <h1 class="computer-score">0</h1>
+       </div>
+       <div  class="computer-display">
+        <img src="rock2.png" alt="" class="computer-img">  
+        </div>
+        
+    </div>
+   </div>
+  
+  
+  
+   
+    <script src="app.js"></script>
+</body>
+</html>
