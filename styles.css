@@ -4,6 +4,7 @@ html,body {
     text-align: center;
     background-color: #1f1f1f;
     color: white;
+    zoom: 90%;
 }
 .title{
     font-size: 48px;
